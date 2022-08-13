@@ -20,7 +20,7 @@ export const NFTCard = ({ nft }) => {
         //description appears in hover-over the NFTs picture to save screen footprint 
         <div className="w-1/6 m-3 flex flex-col ">
         <div className="rounded-md">
-            <image className="object-cover h-128 w-full rounded-t-md" src={nft.media[0].gateway} title={nft.description}></image>
+            <img className="object-cover h-128 w-full rounded-t-md" src={nft.media[0].gateway} title={nft.description}></img>
         </div>
         <div className="flex flex-col y-gap-2 px-2 py-3 bg-purple-600 rounded-b-md h-110 ">
             <div className="">
