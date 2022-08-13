@@ -1,6 +1,10 @@
 export const NFTCard = ({ nft }) => {
     if (!nft) return null;
 
+    var otherWindow = window.open();
+        otherWindow.opener = null;
+        otherWindow.location = url;
+
     function copyToClipboard(e) {
         copyTextToClipboard();
         e.target.focus();
