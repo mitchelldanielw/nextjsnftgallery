@@ -37,8 +37,8 @@ export const NFTCard = ({ nft }) => {
             </div>
             
             <div className="flex justify-center mt-2 mb-2">
-                <a target={"_blank"} href={`https://etherscan.io/address/${nft.contract.address}`} className="py-2 px-2 mr-1 text-sm bg-blue-500 w-1/2 text-center rounded-lg text-white cursor-pointer" title=" Collection Contract Address">Contract on Etherscan</a>
-                <a target={"_blank"} href={`https://etherscan.io/token/${nft.contract.address}`} className="py-2 px-2 ml-1 text-sm bg-blue-500 w-1/2 text-center rounded-lg text-white cursor-pointer" title=" Collection Token Address">Token on etherscan</a>
+                <a target={"_blank"} rel="noreferrer" href={`https://etherscan.io/address/${nft.contract.address}`} className="py-2 px-2 mr-1 text-sm bg-blue-500 w-1/2 text-center rounded-lg text-white cursor-pointer" title=" Collection Contract Address">Contract on Etherscan</a>
+                <a target={"_blank"} rel="noreferrer" href={`https://etherscan.io/token/${nft.contract.address}`} className="py-2 px-2 ml-1 text-sm bg-blue-500 w-1/2 text-center rounded-lg text-white cursor-pointer" title=" Collection Token Address">Token on etherscan</a>
             </div>
         </div>
         </div>      
