@@ -74,11 +74,12 @@ const Home = () => {
             setWalletAddress("");
         } }>Discover NFTs!</button>
       </div>
-      <div className='h-full bg-slate-900 flex flex-wrap gap-y-12 w-screen gap-x-2 justify-center text-white'>
-          {NFTs && NFTs.map(nft => {
-          return (
-            <NFTCard nft={nft}>No NFTs Currently!</NFTCard>
-          )
+      <div className='flex flex-wrap gap-y-12 mt-4 w-5/6 gap-x-2 justify-center'>
+        {
+          NFTs.length && NFTs.map(nft => {
+            return (
+              <NFTCard nft={nft}></NFTCard>
+            )
           })
         }
       </div>
