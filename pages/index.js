@@ -77,10 +77,10 @@ const Home = () => {
       <div className='h-full bg-slate-900 flex flex-wrap gap-y-12 w-screen gap-x-2 justify-center text-white'>
           {NFTs && NFTs.map(nft => {
           return (
-            <NFTCard nft={nft}></NFTCard>
-          );
-        })}
-        
+            <NFTCard nft={nft}>No NFTs Currently!</NFTCard>
+          )
+          })
+        }
       </div>
     </div>
     </div>
