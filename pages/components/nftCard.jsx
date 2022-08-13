@@ -1,5 +1,5 @@
 export const NFTCard = ({ nft }) => {
-    if (!nfts) return null;
+    if (!Collection.length) return null;
 
     function copyToClipboard(e) {
         copyTextToClipboard();
