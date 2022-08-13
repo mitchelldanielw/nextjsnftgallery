@@ -3,5 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
 }
 module.exports = {
+  extends: [
+    //...
+    'plugin:@next/next/recommended',
+  ],
    nextConfig
 }
