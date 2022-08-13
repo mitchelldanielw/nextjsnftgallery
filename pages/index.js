@@ -78,7 +78,7 @@ const Home = () => {
         {
           NFTs.length && NFTs.map(nft => {
             return (
-              <NFTCard nft={ nft }/>
+              <><NFTCard nft={nft}></NFTCard></>
             )
           })
         }
