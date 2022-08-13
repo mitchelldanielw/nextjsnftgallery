@@ -1,4 +1,4 @@
-export const NFTCard = ({ nft }) => {
+export default const NFTCard = ({ nft }) => {
 
     function copyToClipboard(e) {
         copyTextToClipboard();
